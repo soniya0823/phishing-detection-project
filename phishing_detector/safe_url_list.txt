@@ -1,0 +1,16 @@
+http://127.0.0.1:5000/
+
+
+https://www.google.com
+
+https://www.github.com/trending
+
+https://www.paypal.com/signin
+
+https://www.amazon.com/dp/B00X4WHP5E
+
+https://www.microsoft.com/en-us/windows
+
+https://www.wikipedia.org
+
+https://www.netflix.com/browse

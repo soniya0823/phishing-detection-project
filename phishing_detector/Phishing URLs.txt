@@ -1,0 +1,27 @@
+1. IP Address Usage
+Instead of a clear registered domain text name, these use raw numeric IP structures to host fake pages.
+
+http://192.168.1.1/secure-login-update-verify
+
+http://172.56.21.89/paypal/login.html
+
+2. Excessive Subdomains & URL Length
+Attackers often chain subdomains together to make the beginning of a URL look legitimate on mobile screens while hiding the real destination at the end.
+
+http://www.paypal.com.cgi-bin.webscr.cmd-login-submit.secure-update.account-protection-id.com/
+
+https://login.microsoftonline.com.oauth2.authorization.flow.secure-verification-portal.net/login
+
+3. Deceptive Special Characters (Hyphen Aggression & @ Symbols)
+Attackers use hyphens to create fake brand combinations, or use the @ symbol (which tells browsers to ignore everything before it and only navigate to the domain listed after it).
+
+https://secure-paypal-login-update.com
+
+https://www.netflix.com@sign-in-billing-verification.com/index.php
+
+https://amazon-security-alert-unusual-activity.support
+
+4. Embedded Protocol Spoofing
+Placing http or https in the path or subdomain string to trick non-technical users into thinking the site is secure.
+
+http://https-www-paypal-com.login-webscr.info/
